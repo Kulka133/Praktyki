@@ -1,0 +1,104 @@
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: sans-serif;
+    background: #9370DB;
+    
+  }
+  
+  html{
+    scroll-behavior: smooth;
+  }
+  
+  h1{
+    padding-top: 80px;
+    font-weight: 200;
+    font-size: 4em;
+    margin-top: 0.2em;
+    margin-bottom: 0.2em;
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+  
+  nav{
+    position: fixed;
+    width: 100%;
+    max-width: 1400px;
+    height: 100px;
+    z-index: 2;
+    background: #7072db;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: black 1px solid;
+  }
+  
+  nav a{
+    color: white;
+    font-weight: 100;
+    font-size: 1.75em;
+    text-decoration: none;
+  }
+  
+  nav a:hover{
+    color: #000080;
+  }
+  
+  section{
+    box-sizing: border-box;
+    padding: 60px;
+    width: 100%;
+    max-width: 1400px;
+    background: #7072db;
+    border-bottom: black 1px solid; 
+  }
+  
+  #welcome-section{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .project-tile{
+    background: white;
+    width: 400px;
+    padding: 20px;
+    margin: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    flex-grow: 3;
+    margin:0 auto;
+    display:block;
+  }
+  
+  contact-section{
+    min-height: 100vh; 
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .profile-links{
+    font-size: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    margin: 5px;
+    flex-grow: 2;
+  }
+  @media (max-height:500px){
+    section{
+      background-color:white;
+    }
+  }
